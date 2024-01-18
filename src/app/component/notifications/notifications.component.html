@@ -1,0 +1,12 @@
+<app-common></app-common>
+<div id="container" >
+    <label>
+        <input type="checkbox" class="alertCheckbox" autocomplete="off" />
+        <div class="alert info" *ngFor="let anno of ann">
+          <span class="alertClose"></span>
+          <span class="alertText">{{anno.title}} <br>{{anno.subject}}<br />{{anno.details}}<br />
+          <br class="clear"/></span>
+        </div>
+      </label>
+  </div>
+

@@ -1,0 +1,22 @@
+<app-admin-nav></app-admin-nav>
+<div class="section">
+    <div class="main-block">
+        <div class="">
+        <i class="fas fa-envelope"></i>
+        <i class="fas fa-at"></i>
+        <i class="fas fa-mail-bulk"></i>
+        </div>
+        <form [formGroup]="annForm" (ngSubmit)="post()">
+        <h1>Job Posting</h1>
+        <div class="info">
+        <input class="fname" formControlName="short" type="text" name="title" placeholder="Short name">
+        <input type="text" formControlName="jobname" name="subject" placeholder="Job title">
+        <input class="fname" formControlName="location" type="text" name="title" placeholder="Location">
+        <input type="text" formControlName="salary" name="subject" placeholder="Salary">
+        <input class="fname" formControlName="shift" type="text" name="title" placeholder="Work shift">
+        </div>
+        <button type="submit">Submit</button>
+        </form>
+        </div>
+</div>
+

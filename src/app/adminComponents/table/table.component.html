@@ -1,0 +1,67 @@
+<app-admin-nav></app-admin-nav>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<div style="z-index: -1;position: absolute;top: 0px; left: 250px;width: 80%;" >
+<hr>
+<div class="container bootstrap snippets bootdey">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="main-box no-header clearfix">
+                <div class="main-box-body clearfix">
+                    <div class="table-responsive">
+                        <table class="table user-list">
+                            <thead>
+                                <tr>
+                                <th><span>User</span></th>
+                                <th><span>Phone</span></th>
+                                <th class="text-center"><span>Status</span></th>
+                                <th><span>Email</span></th>
+                                <th>&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody *ngFor="let user of userlist">
+                                <tr>
+                                    <td>
+                                        <img src="https://bootdey.com/img/Content/user_1.jpg" alt="">
+                                        <h1  class="user-link" >{{user.firstname}} {{user.lastname}}</h1>
+                                        <span class="user-subhead"> {{user.country}},{{user.state}}</span>
+                                    </td>
+                                    <td>{{user.phone}}</td>
+                                    <td class="text-center">
+                                        <span class="label label-default" *ngIf="user.isActive==true">Active</span>
+                                        <span class="label label-default" *ngIf="user.isActive==false">In active</span>
+                                    </td>
+                                    <td>
+                                        <a >{{user.id}}</a>
+                                    </td>
+                                    <td style="width: 20%;">
+                                        <a href="" class="table-link text-warning">
+                                            <span class="fa-stack">
+                                                <i class="fa fa-square fa-stack-2x"></i>
+                                                <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                        <a  class="table-link text-info">
+                                            <span class="fa-stack">
+                                                <i class="fa fa-square fa-stack-2x"></i>
+                                                <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                        <a (click)="delete(user.id)" class="table-link danger">
+                                            <span class="fa-stack">
+                                                <i class="fa fa-square fa-stack-2x"></i>
+                                                <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </td>
+                                </tr>
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="space"></div>            

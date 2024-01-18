@@ -1,0 +1,49 @@
+<nav class="navbar  navbar-expand-lg navbar-light bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto topnav">
+
+        </ul>
+    </div>
+    <ul class="nav">
+        <li class="nav-item active" style="text-align: end;margin-top: auto;margin-bottom: auto;">
+            <a class="nav-link btn btn-danger text-white" type="button" style="background-color: rgb(165, 17, 17);"
+                routerLink="/login">Log out</a>
+        </li>
+    </ul>
+</nav>
+
+<header>
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-light ">
+        <div class="position-sticky">
+            <h1 style="color: rgb(0, 0, 0); margin-left: 25px; margin-top: -55px;">Career.com</h1>
+            <div class=" list-group-flush mx-3 mt-4">
+                <a routerLink="/adminhome" class="list-group-item list-group-item-action py-2 ripple" id="over"
+                    aria-current="true">
+                    <span id="over">Home</span>
+
+                </a>
+                <a routerLink="/table" class="list-group-item list-group-item-action py-2 ripple" id="over"
+                    aria-current="true">
+                    <span id="over">User List</span>
+
+                </a>
+
+                <a routerLink="/feedback" id="over" class="list-group-item list-group-item-action py-2 ripple ">
+                    <span>Feedback</span>
+
+                </a>
+                <a routerLink="/announcement" id="over"
+                    class="list-group-item list-group-item-action py-2 ripple"><span>Announcement</span> </a>
+                <a routerLink="/jobpost" id="over" class="list-group-item list-group-item-action py-2 ripple">
+                    <span>Post Job</span> </a>
+
+            </div>
+        </div>
+    </nav>
+</header>

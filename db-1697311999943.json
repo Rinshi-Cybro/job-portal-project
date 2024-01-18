@@ -1,0 +1,127 @@
+{
+  "user": [
+    {
+      "firstname": "admin",
+      "lastname": "1",
+      "phone": "8547540722",
+      "address1": "address",
+      "address2": "post",
+      "address3": "city",
+      "education": "b.tech",
+      "about": "hello hello hello",
+      "id": "admin@user",
+      "password": "123",
+      "country": "India",
+      "state": "Kerala",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "firstname": "Kamil",
+      "lastname": "Saudab",
+      "phone": "8547540722",
+      "address1": "address",
+      "address2": "post",
+      "address3": "city",
+      "education": "b.tech",
+      "about": "hello hello hello",
+      "id": "kamil@user",
+      "password": "123",
+      "country": "India",
+      "state": "Kerala",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "firstname": "Rinshid",
+      "lastname": "AK",
+      "phone": "8547540722",
+      "address1": "AK House",
+      "address2": "673619",
+      "address3": "Vengara",
+      "education": "B.Sc",
+      "about": "I am Rinshid.",
+      "id": "rinshid@user",
+      "password": "123",
+      "country": "India",
+      "state": "Kerala",
+      "role": "user",
+      "isActive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "Staff"
+    },
+    {
+      "code": "quality",
+      "name": "Quality"
+    }
+  ],
+  "vacancy": [
+    {
+      "id": 1,
+      "short": "S.E",
+      "jobname": "Software Engineer",
+      "location": "San Francisco, CA",
+      "salary": "$100,000 - $120,000 per year",
+      "shift": "Full time"
+    },
+    {
+      "id": 2,
+      "short": "M.S",
+      "jobname": "Marketing Specialist",
+      "location": "New York, NY",
+      "salary": "$70,000 - $90,000 per year",
+      "shift": "Full time"
+    },
+    {
+      "id": 3,
+      "short": "C.S.R",
+      "jobname": "Customer Support Representative",
+      "location": "Los Angeles, CA",
+      "salary": "$50,000 - $60,000 per year",
+      "shift": "Full time"
+    },
+    {
+      "short": "dd",
+      "jobname": "dddde",
+      "location": "ddd",
+      "salary": "dddd",
+      "shift": "dddddd",
+      "id": 4
+    }
+  ],
+  "message": [
+    {
+      "name": "Kamil",
+      "email": "Kamil@user",
+      "contact": "8656789809",
+      "message": "Error",
+      "id": 2
+    },
+    {
+      "name": "asdasd",
+      "email": "kamil@user",
+      "contact": "asdasd",
+      "message": "asdasdasd",
+      "id": 8
+    },
+    {
+      "name": "Rinshid",
+      "email": "rinshid@user",
+      "contact": "8909090987",
+      "message": "The job Query i am getting is too low",
+      "id": 9
+    }
+  ],
+  "announcement": [
+    {
+      "title": "Job",
+      "subject": "Vacancy ",
+      "details": "There is a new job vacancy in tcs so kindly click this to know more https://www.tcs.com/",
+      "id": 1
+    }
+  ]
+}
